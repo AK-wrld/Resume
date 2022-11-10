@@ -1,0 +1,285 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="nav.css">
+<link rel="stylesheet" href="profile.css">
+<link rel="stylesheet" href="experience.css">
+<link rel="stylesheet" href="skills.css">
+<link rel="stylesheet" href="contact.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+<link rel="stylesheet" href="navMedia.css">
+<link rel="stylesheet" href="profMed.css">
+<link rel="stylesheet" href="expMed.css">
+<link rel="stylesheet" href="skillMed.css">
+<link rel="stylesheet" href="contMed.css">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+</style>
+<style>
+    html {
+        scroll-behavior: smooth;
+    }
+    
+</style>
+
+<body>
+    <div class="main">
+        <div class="left">
+            
+                <button id="button" class="btn" onclick="removeright(), flip() ,changebtn() "><img
+                    src="/Images/left arrow2.png" alt="" id="navBtn" onclick="changeimg()"></button>
+                <button id="btn2" class="btn" onclick="add_nav(), flip2()"><img
+                    src="/Images/right arrow.png " alt="" id="navBtn2"></button>
+                   
+            
+        </div>
+        <div class="right" id="right">
+            <nav class="navbar">
+
+                <div class="nav_text">
+                    <a href="#profilePage" id="profile" class="navLink" onclick="p(),remove_nav()">Profile</a>
+                </div>
+                <div class="nav_text">
+                    <a href="#experiencePage" id="experience" class="navLink" onclick="e(),remove_nav()">Experience</a>
+                </div>
+                <div class="nav_text">
+                    <a href="#skillspage" id="skill" class="navLink" onclick="pr(),remove_nav()">Skills</a>
+                </div>
+                <div class="nav_text">
+                    <a href="#contactpage" id="contact" class="navLink" onclick="c(),remove_nav()">Contact</a>
+                </div>
+
+            </nav>
+        </div>
+    </div>
+    <div id="profilePage">
+        <div id="profile_content">
+            <div class="header">
+                <h1>PROFILE</h1>
+
+            </div>
+
+            <div class="moreContent">
+                <div id="about">
+                    <h1>About Me</h1>
+                    <p>Hello everyone. My name is Apurba Koley and im an aspiring web developer. I have a strong 
+                        command over frontend web developing and currently learning more about the backend aspects of the web.
+                        I am friendly type of person who has a zeal for learning new stuff and work amongst a team. I can speak
+                        fluently in Hindi , English as well as Bengali. I believe in hardwork, team coordination and time management
+                        while also being kind and humble towards my peers and group members. I am currently open to work.
+                    </p>
+                </div>
+                <div id="dp">
+                    <img src="/Images/pro.jpg" alt="Apurba Koley">
+                </div>
+                <div id="details">
+                    <h1>Details</h1>
+                    <p> <strong>Name:</strong> <br>
+                        Apurba Koley<br> <br>
+
+                        <strong>Age:</strong> <br>
+                        19<br> <br>
+
+                        <strong>Gender</strong> <br>
+                        Male <br> <br>
+
+                        <strong>DOB:</strong><br>
+                        18/05/2003<br> <br>
+
+                        <strong>Email:</strong><br>
+                        apurbarox619@gmail.com
+
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="experiencePage">
+        <div id="exp_content">
+            <div class="header" id="exp">
+                <h1>EXPERIENCE</h1>
+            </div>
+            <div id="content">
+                <div id="school">
+                    <h3 class="h3">Education</h3>
+                    <div id="pschool">
+                        <div class="school_title">
+                            <p> <strong>Primary School:</strong> </p>
+                        </div>
+                        <div class="school_cont">
+                            <p>Apeejay School Pitampura</p>
+                        </div>
+                    </div>
+                    <div id="mschool">
+                        <div class="school_title">
+                            <p> <strong>Middle School:</strong> </p>
+                        </div>
+                        <div class="school_cont">
+                            <p>Apeejay School Pitampura</p>
+                        </div>
+                    </div>
+                    <div id="hschool">
+                        <div class="school_title">
+                            <p> <strong>High School:</strong> </p>
+                        </div>
+                        <div class="school_cont">
+                            <p>Apeejay School Pitampura</p>
+                        </div>
+                    </div>
+
+                    <div id="school_img">
+                        <img src="/Images/school.jpg" alt="Apeejay School Pitampura">
+                    </div>
+                </div>
+                <div id="clg">
+                    <div id="clg_name">
+                        <div class="clg_title">
+                            <p> <strong>College:</strong> </p>
+                        </div>
+                        <div class="clg_cont">
+                            <p>Mahraja Agrasen Institute of Technology,Delhi(MAIT)</p>
+                        </div>
+                    </div>
+                    <div id="clg_course">
+                        <div class="clg_title">
+                            <p> <strong>Course:</strong> </p>
+                        </div>
+                        <div class="clg_cont">
+                            <p>BTECH CSE</p>
+                        </div>
+                    </div>
+                    <div id="clg_batch">
+                        <div class="clg_title">
+                            <p> <strong>Batch:</strong> </p>
+                        </div>
+                        <div class="clg_cont">                            
+                            <p>2021-2025</p>
+                        </div>
+                    </div>
+                   
+                    <div id="clg_img">
+                        <img src="/Images/clg.jpg" alt="MAIT">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div id="skillspage">
+        <div id="skills_content">
+            <div class="header">
+                <h1 id="skills_head">SKILLS</h1>
+            </div>
+            <div id="cont">
+                <div id="skills">
+            
+                    <div id="lang">
+                        <div id="langP">
+                            <div class="lang_title">
+                                <p> <strong>Programming Languages Known:</strong> </p>
+                            </div>
+                            <div class="lang_cont">
+                                <p>C C++ JavaScript</p>
+                            </div>
+                        </div>
+                        <div id="langO">
+                            <div class="lang_title">
+                                <p> <strong>Other Languages Known:</strong> </p>
+                            </div>
+                            <div class="lang_cont">
+                                <p>HTML CSS</p>
+                            </div>
+                        </div>
+                        <div id="sp">
+                            <div class="lang_title">
+                                <p> <strong>Specialization:</strong> </p>
+                            </div>
+                            <div class="lang_cont">
+                                <p>Full Stack Web Development</p>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div id="Achievement">
+                    <h3 class="h3">Achievements</h3>
+                    <div id="dsacontainer">
+                        <div id="dsa_title" class="ach_title">
+                            <p> <strong> DSA:</strong> </p>
+            
+                        </div>
+                        <div id="dsa_cont" class="ach_cont">
+                            <p>Completed course on DSA from Coding Blocks. <br>Got Certificate of Completition for
+                                completing 70%+ questions on hackerblocks</p>
+            
+                        </div>
+                    </div>
+                    <div id="cpContainer">
+                        <div class="ach_title" id="cp">
+                            <p> <strong>Competitive Programming:</strong> </p>
+                        </div>
+                        <div class="ach_cont">
+                            <p>I am a <img src="/Images/star5.png" alt="" class="star"> <img src="/Images/star5.png" alt=""
+                                    class="star"> coder at <a href="https://www.codechef.com/" target="_blank"><img
+                                        src="/Images/codechef.png" alt="" class="cc"></a></p>
+                        </div>
+                    </div>
+                   <div id="webD">
+                    <div class="ach_title">
+                        <p> <strong>Web Development:</strong> </p>
+                    </div>
+                    <div class="ach_cont" id="wd">
+                        <ul>
+                            <li>Completed Youtube Course from <a
+                                    href="https://www.youtube.com/watch?v=6mbwJ2xhgzM&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg"
+                                    target="_blank">Code with Harry</a> on Full Stack Web Development.</li>
+                            <li> Currently pursuing Full Stack Web Development Course from Coding Blocks.</li>
+                        </ul>
+                    </div>
+                   </div>
+                    
+                </div>
+                
+            </div>
+            </div>
+        </div>
+    <div id="contactpage">
+        <div id="contact_content">
+            <div id="contact_title" class="header">
+                <h1 id="contact_h1">Contact Me</h1>
+            </div>
+            <div id="logos">
+                <div id="whatsapp" class="icon_container">
+                    <i class="bi bi-whatsapp icon"></i>
+                </div>
+                <div id="insta" class="icon_container">
+                    <a href="https://www.instagram.com/apurba1805/?hl=en" target="_blank" class="icon_link"><i class="bi bi-instagram icon"></i></a> 
+                </div>
+                <div id="linkdin" class="icon_container">
+                    <a href="https://www.linkedin.com/in/apurba-koley-53b3b7228" target="_blank" class="icon_link2"><i class="bi bi-linkedin icon"></i></a> 
+                </div>
+                <div id="git" class="icon_container">
+                    <a href="https://github.com/AK-wrld" target="_blank" class="icon_link3"><i class="bi bi-github icon"></i></a> 
+                </div>
+            </div>
+            <div id="contactNo">
+                <p>Contact Number : 8929988954</p> 
+                <p>Email : apurbarox619@gmail.com</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="media.js"></script>
+</body>
+
+</html>

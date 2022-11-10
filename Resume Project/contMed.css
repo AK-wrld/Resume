@@ -1,0 +1,36 @@
+@media screen and (min-width:550px) and (max-width:652px) {
+
+    
+    #contact_h1 {
+        font-size: 55;
+    }
+}
+@media screen and (min-width:340px) and (max-width:550px) {
+    #contactpage {
+        height: 100vh;
+    }
+    #contact_content {
+        height: 100vh;
+    }
+    #logos {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .icon_container {
+        margin: 10 0;
+    }
+    #contact_h1 {
+        padding-top: 20px;
+        font-size: 45px;
+    text-align: center;
+    }
+}
+@media screen and (max-width:340px) {
+    #contact_h1 {
+        width: 319px;
+        padding-top: 20px;
+        font-size: 45px;
+        text-align: center;
+    }
+}

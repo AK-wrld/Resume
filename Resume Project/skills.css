@@ -1,0 +1,115 @@
+#skillspage {
+    width: 100%;
+    height: 125vh;
+    background-color: #f9d442e4;
+}
+#skills_content {
+    width: 75%;
+    height: 100vh;
+    /* background-color: red; */
+    margin: auto;
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+}
+#skills_head {
+    padding-top: 200;
+}
+#cont {
+    padding-top: 160;
+}
+#langP {
+    display: inline-block;
+    width: 66%;
+}
+#langO {
+    display: inline-block;
+    width: 66%;
+}
+#sp {
+    display: inline-block;
+    width: 66%;
+}
+.lang_title {
+    display: inline-block;
+    width: 49%;
+}
+.lang_cont  {
+    display: inline-block;
+    width: 50%;
+}
+.lang_title p {
+    padding-top: 15;
+    font-size: 15;
+    font-family: 'Montserrat', sans-serif;
+    color: #292826;
+}
+.lang_cont p {
+    padding-top: 15;
+    font-size: 15;
+    font-family: 'Montserrat', sans-serif;
+    color: #292826;
+}
+#Achievement h3 {
+    padding-top: 50;
+    color: #292826;
+    
+}
+.ach_title {
+    display: inline-block;
+    width: 32%;
+}
+.ach_cont {
+    display: inline-block;
+    width: 50%;
+}
+.ach_title p {
+    padding-top: 15;
+    font-size: 15;
+    font-family: 'Montserrat', sans-serif;
+    color: #292826;
+}
+
+.ach_cont p {
+    padding-top: 30;
+    font-size: 15;
+    font-family: 'Montserrat', sans-serif;
+    color: #292826;
+}
+#cp {
+    padding-top: 60px;
+}
+.star {
+    width: 20;
+    transition: width 0.2s , padding 0.2s;
+}
+.star:hover {
+    width: 25;
+    padding: 0 , 3;
+}
+
+.cc {
+    width: 45;
+    transition: width 0.2s;
+}
+.cc:hover {
+    width: 50;
+}
+#wd {
+    padding-top: 45px;
+}
+.ach_cont > ul > li {
+    padding-top: 15;
+    font-size: 15;
+    font-family: 'Montserrat', sans-serif;
+}
+.ach_cont > ul > li > a {
+    text-decoration: none;
+    font-style: italic;
+    color: #292826;
+}
+.ach_cont > ul > li > a:hover {
+    text-decoration: underline;
+}
+#comp h3 {
+    padding-top: 30;
+}

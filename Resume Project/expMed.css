@@ -1,0 +1,76 @@
+@media screen and (max-width:652px) {
+    #experiencePage {
+        height: 160vh;
+    }
+    #exp_content {
+        height: 145vh;
+    }
+    #school {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    #school_img img {
+        width: 180;
+    }
+    #clg {
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0;
+        
+    }
+   
+    #school_img {
+        height: 150px;
+    }
+    #clg_img {
+        height: 120px;
+    }
+    #clg_img img {
+        top: 80%;
+        width: 180;
+    }
+}
+@media screen and (max-width:802px) {
+    #experiencePage {
+        height: 130vh;
+    }
+    #exp_content {
+        height: 120vh;
+    }
+    
+}@media screen and (min-width:802px) and (max-width:916px) {
+    .school_title {
+        width: 35%;
+    }
+    .clg_title {
+        width: 35%;
+    }
+}
+@media screen and (min-width:461px) and (max-width:652px) {
+    #experiencePage {
+        height: 148vh;
+    }
+    #exp_content {
+        height: 143vh;
+    }
+}
+@media screen and (max-width:461px) {
+    #experiencePage {
+        height: 165vh;
+    }
+    #exp_content {
+        height: 158vh;
+    }
+}
+@media screen and (max-width:400px) {
+    .header h1 {
+        font-size: 45px;
+    }
+}

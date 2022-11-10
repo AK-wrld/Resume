@@ -1,0 +1,20 @@
+
+@media screen and (max-width:918px) {
+    .moreContent {
+        display: flex;
+        flex-direction: column;
+
+    }
+    #profilePage {
+        height: 140vh;
+    }
+    #profile_content {
+        height: 135vh;
+    }
+    .header h1 {
+        font-size: 55px;
+    }
+    #dp img {
+        width:225px;
+    }
+}

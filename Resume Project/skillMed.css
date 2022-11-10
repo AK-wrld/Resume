@@ -1,0 +1,99 @@
+
+@media screen and (max-width:802px) {
+    #skillspage {
+        height: 150vh;
+    }
+}
+@media screen and (min-width:468px) and (max-width:652px) {
+    #skillspage {
+        height: 150vh;
+    }
+    #skills_content {
+        width: 90%;
+    }
+    #skills_head {
+        padding-top: 150px;
+    }
+    #cont {
+        padding-top: 130px;
+    }
+   #skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   } 
+   #Achievement {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   }
+   #Achievement h3 {
+    padding-top: 20;
+   }
+   .ach_cont p {
+    padding-top: 15px;
+   }
+   #dsacontainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#cpContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+#webD {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+   }#cp p {
+    padding-right: 50px;
+   }
+   #cp {
+    padding-top: 10px;
+}
+.ach_title {
+    
+    padding-top: 10px;
+}
+#wd {
+    
+    padding-top: 15px;
+   }
+}
+@media screen and (min-width:468px) and (max-width:515px) {
+    #skillspage {
+        height: 163vh;
+    }
+}
+@media screen and (max-width:468px) {
+    #skillspage {
+        height: 180vh;
+    }
+    .ach_title {
+        width: 47%;
+    }
+}
+@media screen and (max-width:454px) {
+    #skillspage {
+        height: 185vh;
+    }
+}
+@media screen and (max-width:388px) {
+    #skillspage {
+        height: 200vh;
+    }
+}

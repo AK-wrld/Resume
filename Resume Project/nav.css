@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main {
+    display: flex;
+    position: fixed;
+    top: 0px;
+    width:100%;
+    z-index: 1;
+    
+}
+
+.right {
+    width: 100%;
+    background-color: #292826;
+    transition: width 0.5s;
+}
+
+.removeright {
+    
+    width: 0%;
+}
+.removeright .nav_text {
+    display: none;
+}
+.navbar {
+    display: flex;
+    
+    /* grid-auto-flow: column; */
+    justify-content: space-around;
+    align-items: center;
+    height: 50;   
+}
+
+#button {
+    cursor: pointer;
+    background-color: #292826;
+    display: inline;
+    transition: background-color 0.5s;
+    /* display: none; */
+    
+}
+
+#btn2 {
+    display: none;
+}
+.changebtn {
+    /* animation-name: opacity;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards; */
+        background-color: transparent !important;
+        
+    
+}
+.changebtn:hover {
+    animation-name: inv;
+    animation-duration: 0.2s;
+    animation-fill-mode: both;
+    
+}
+@keyframes inv {
+    from {
+        filter: invert(0);
+    }
+    to {
+        filter: invert();
+    }
+}
+/* @keyframes opacity {
+    from {
+        background-color: #292826;
+    }
+    to {
+        background-color: white;
+    }
+} */
+#navBtn {
+    width: 50;
+    transition-duration: 0.6s;
+    transition-property: transform;
+    filter: invert();
+    
+}
+
+
+.btn {
+    background: none;
+    border: none;
+   cursor: pointer;
+}
+.btn:hover {
+    background-color: #dddd;
+}
+.flip {
+    transform: scaleX(-1);
+    
+}
+.changeimg {
+    animation-name: invertimg;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+}
+@keyframes invertimg {
+    from {
+        filter: invert();
+    }
+    to {
+        filter: invert(0);
+    }
+}
+.nav_text {
+    font-size: 1.2rem;
+    font-family: 'Signika Negative', sans-serif;
+}
+.navLink {
+    text-decoration: none;
+    color: white;
+    padding: 13 5;
+    padding-bottom: 14;
+    transition-duration: 0.3s;
+    transition-property: background-color;
+   letter-spacing: 1px;
+}
+.navLink:hover {
+    background-color: #f9d342;
+    color:#292826;
+}
+.changeLink {
+    background-color: #f9d342;
+    color:#292826;
+}
